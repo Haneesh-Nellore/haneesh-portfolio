@@ -34,19 +34,5 @@ Visit `http://localhost:3000`
 ## Live
 https://hn-ashen.vercel.app/
 
-## Development & Updates
 
-As new work is added:
-
-1. Update README with new projects/features
-2. Commit and push:
-```bash
-   git add .
-   git commit -m "Add [new feature/project]"
-   git push
-```
-3. Deploy when ready (Vercel recommended for Next.js)
-
----
-
-Made by Haneesh Nellore 
+Made by Haneesh Nellore <3
