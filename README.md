@@ -32,7 +32,6 @@ Visit `http://localhost:3000`
 - OpTrends AI
 
 ## Live
-https://hn-ashen.vercel.app/
-
+[https://hn-ashen.vercel.app/](https://hn-ashen.vercel.app/)
 
 Made by Haneesh Nellore <3
