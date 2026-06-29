@@ -101,12 +101,12 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
                     <CheckCircle2 size={64} className="text-emerald-400 mb-6" />
                   </motion.div>
                   <h3 className="text-2xl font-bold text-white mb-2">Message Sent!</h3>
-                  <p className="text-slate-300">Thanks for reaching out! I'll get back to you soon.</p>
+                  <p className="text-slate-300">Thanks for reaching out! I&apos;ll get back to you soon.</p>
                 </div>
               ) : (
                 <>
-                  <h2 className="text-3xl font-bold text-white mb-2 tracking-tight">Let's Build.</h2>
-                  <p className="text-slate-400 mb-8 text-sm">Tell me about your idea, and I'll help you scale it from 0 to 1.</p>
+                  <h2 className="text-3xl font-bold text-white mb-2 tracking-tight">Let&apos;s Build.</h2>
+                  <p className="text-slate-400 mb-8 text-sm">Tell me about your idea, and I&apos;ll help you scale it from 0 to 1.</p>
 
                   <form onSubmit={handleSubmit} className="flex flex-col gap-5">
                     {/* Access key for web3forms placeholder */}

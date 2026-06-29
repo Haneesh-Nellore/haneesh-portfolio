@@ -31,6 +31,7 @@ export default function Hero() {
             className="relative w-full aspect-[4/5] rounded-[24px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/5 bg-navy/60 backdrop-blur-[20px] group transition-all duration-700 hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(99,179,237,0.2)] hover:border-electricBlue/30 cursor-crosshair"
           >
             {/* The Image */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src="/headshot.jpg" 
               alt="Haneesh Nellore" 
