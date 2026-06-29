@@ -4,6 +4,8 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import ContactModal from "@/components/ContactModal";
 
+import Image from "next/image";
+
 export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -31,14 +33,13 @@ export default function Hero() {
             className="relative w-full aspect-[4/5] rounded-[24px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] border border-white/5 bg-navy/60 backdrop-blur-[20px] group transition-all duration-700 hover:scale-[1.02] hover:shadow-[0_20px_60px_rgba(99,179,237,0.2)] hover:border-electricBlue/30 cursor-crosshair"
           >
             {/* The Image */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img 
+            <Image 
               src="/headshot.jpg" 
-              alt="Haneesh Nellore" 
+              alt="Haneesh Nellore"
+              width={460}
+              height={575}
+              priority
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-              onError={(e) => {
-                (e.target as HTMLImageElement).src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop";
-              }}
             />
 
             {/* Bottom Gradient Overlay with "HN." */}
