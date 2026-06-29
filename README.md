@@ -32,7 +32,7 @@ Visit `http://localhost:3000`
 - OpTrends AI
 
 ## Live
-[Add URL after deployment]
+https://hn-44y2cz7i5-h-come.vercel.app
 
 ## Development & Updates
 
